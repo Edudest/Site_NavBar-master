@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Boldonse&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jaini&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+
+@font-face {
+    font-family: "teste";
+    src: url('../fontes/Olde\ Stencil.ttf');
+}
+
+@font-face {
+    font-family: "king";
+    src: url('../fontes/KingsguardCalligraphy_PERSONAL_USE_ONLY.otf');
+}
+
+@font-face {
+    font-family: "zelda";
+    src: url('../fontes/The\ Wild\ Breath\ of\ Zelda.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    margin: 40px auto;
+    width: 80%;
+}
+
+body {
+    background-color:azure;
+    background-image: url('../imagens/Sem\ título.png');
+}
+
+main h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+header, nav, main, footer {
+    width: 100%;
+    float: left;
+}
+
+header {
+    background-color:#6495ed;
+    height: 250px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+nav {
+    background-color:rgb(205, 190, 200);
+    width: 20%;
+    padding: 1%;
+
+}
+
+main {
+    background-color:rgba(204, 190, 200, 0.9);
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: 3%;
+    text-align: justify;
+    width: 67%;
+    text-indent: 2%;
+    font-family: "Gruppo";
+}
+
+footer {
+    background-color:cornflowerblue;
+    height: 250px;
+    margin-top: 1%;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+#topo {
+    width: 100%;
+    background-color: lightgray;
+    top: 0;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    padding: 16px;
+}
+
+#topo ul {
+    margin: 0;
+    display: flex; 
+    justify-content: center; 
+}
+
+#topo li {
+    display:inline-block;
+    margin: 0;
+}
+
+#topo a {
+    color:black;
+    text-decoration: none;
+}
+
+#topo li a {
+    height: 100%;
+    text-decoration: inherit;
+    border-right: 2px solid dimgray;
+    margin: 0;
+    padding: 15px 25px;
+}
+
+#topo li:last-child a {
+    border-right: none; 
+}
+
+#topo li a:hover {
+    background-color: gray;
+}
+
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+nav li {
+    display: block;
+    width: 100%;
+}
+
+nav a{
+    text-decoration: none;
+    color:black;
+}
+
+nav li a {
+    display: block;
+    padding: 25px 25px;
+}
+
+nav li a:hover{
+    background-color:gray;
+}
+
+nav a.active {
+    background-color:gray;
+    color:white;
+}
+
+#topo a.active {
+    background-color:gray;
+    color:white;
+}
+
+header h1 {
+    font-family: "teste";
+}
+
+#texto1 {
+    font-family: "Gruppo";
+}
+
+#link1 {
+    font-family: "king";
+}
+
+#link2 {
+    font-family: "teste";
+}
+
+#link3 {
+    font-family: "zelda";
+}
+
+#link4 {
+    font-family: "Boldonse";
+}
+
+#link5 {
+    font-family: "Jaini";
+}
+
